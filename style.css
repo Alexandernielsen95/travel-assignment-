@@ -45,7 +45,9 @@ img {
     font-family: inherit;
     margin: 0;
 }
-
+main {
+    margin-bottom:200px;
+}
 .navbar a:hover,
 .subnav:hover .subnavbtn {
     background-color: none;
@@ -74,6 +76,7 @@ img {
 .subnav:hover .subnav-content {
     display: block;
 }
+
 
 
 
@@ -128,5 +131,31 @@ img {
     grid-row: 1/-1;
     justify-self: center;
     align-self: center;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
+  text-align: left;
+
+}
+
+.icons {
+    padding: 20px;
+    margin: 20px;
+}
+
+.logo {
+max-width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    padding-top: 10px;
 }
 
