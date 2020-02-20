@@ -10,7 +10,7 @@ body {
 
 .navbar {
     display: flex;
-   justify-content: center;
+    justify-content: center;
     overflow: hidden;
     background-color: none;
     text-align: center;
@@ -75,10 +75,25 @@ img {
     display: block;
 }
 
-/*
 .image3 {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-*/
+
+.image3 {
+    width: 100%;
+    height: auto
+}
+
+#sky1 {
+    width: 100%;
+}
+
+#sky2 {
+    width: 100%;
+}
+
+#sky3 {
+    width: 100%;
+}
