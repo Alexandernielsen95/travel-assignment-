@@ -74,3 +74,32 @@ img {
 .subnav:hover .subnav-content {
     display: block;
 }
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+}
+
+ul {
+    text-decoration: none;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin-left: 50px;
+}
+
+p{
+    float: right;
+    color: white;
+    margin-right: 500px;
+}
+
