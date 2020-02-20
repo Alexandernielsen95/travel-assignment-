@@ -9,6 +9,8 @@ body {
 }
 
 .navbar {
+    display: flex;
+   justify-content: center;
     overflow: hidden;
     background-color: none;
     text-align: center;
@@ -46,14 +48,14 @@ img {
 
 .navbar a:hover,
 .subnav:hover .subnavbtn {
-    background-color: red;
+    background-color: none;
 }
 
 .subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: red;
+    background-color: none;
     width: 100%;
     z-index: 1;
 }
@@ -65,10 +67,18 @@ img {
 }
 
 .subnav-content a:hover {
-    background-color: #eee;
+    background-color: none;
     color: black;
 }
 
 .subnav:hover .subnav-content {
     display: block;
 }
+
+/*
+.image3 {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+*/
