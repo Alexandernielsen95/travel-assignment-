@@ -151,9 +151,9 @@ p {
     align-self: center;
 }
 footer {
-    position: fixed;
+    position: static;
     left: 0;
-    bottom: 0;
+    bottom: 0%;
     width: 100%;
     background-color: white;
     color: white;
@@ -163,7 +163,7 @@ footer {
 
 .icons {
     padding: 20px;
-    margin: 20px;
+    margin: 0px;
 }
 
 .logo {
