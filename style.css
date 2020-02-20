@@ -74,3 +74,59 @@ img {
 .subnav:hover .subnav-content {
     display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+.image3 {
+    position: relative;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image3 {
+    text-align: center;
+    padding: 10px 20px;
+    grid-gap: 2%;
+    margin-top: 50%;
+    display: grid;
+
+}
+
+#sky1 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#sky2 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#sky3 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.image3 a {
+    display: grid;
+}
+.image3 a>* {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    justify-self: center;
+    align-self: center;
+}
+
