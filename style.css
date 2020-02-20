@@ -90,3 +90,12 @@ footer {
     padding: 20px;
     margin: 20px;
 }
+
+.logo {
+max-width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    padding-top: 10px;
+}
