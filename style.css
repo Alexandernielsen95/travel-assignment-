@@ -86,9 +86,10 @@ img {
     text-align: center;
     padding: 10px 20px;
     grid-gap: 2%;
-    margin-top: 50%
-}
+    margin-top: 50%;
+    display: grid;
 
+}
 
 #sky1 {
     width: 100%;
@@ -109,9 +110,12 @@ img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.image3 a {
+    display: grid;
+}
+.image3 a>* {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    justify-self: center;
+    align-self: center;
+}
