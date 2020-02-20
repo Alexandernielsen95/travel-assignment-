@@ -76,24 +76,42 @@ img {
 }
 
 .image3 {
+    position: relative;
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .image3 {
-    width: 100%;
-    height: auto
+    text-align: center;
+    padding: 10px 20px;
+    grid-gap: 2%;
+    margin-top: 50%
 }
+
 
 #sky1 {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
 }
 
 #sky2 {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
 }
 
 #sky3 {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
