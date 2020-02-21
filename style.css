@@ -79,9 +79,7 @@ main {
     display: block;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 .image3 a {
     display: grid;
 }
@@ -99,7 +97,6 @@ main {
     grid-gap: 2%;
     margin-top: 30%;
     display: grid;
-
 }
 
 #sky1 {
@@ -146,14 +143,14 @@ main {
     padding: 10px 20px;
     grid-gap: 2%;
     margin-top: 12%;
->>>>>>> origin/master
-
-
 }
+
+
 p {
     justify-self: center;
     align-self: center;
 }
+
 footer {
     position: static;
     left: 0;
@@ -167,9 +164,19 @@ footer {
 
 .icons {
     padding: 20px;
-<<<<<<< HEAD
     margin: 20px;
-=======
+}
+
+.logo {
+    max-width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+}
+
+
 h1 {
     font-size: 50px;
     color: white;
@@ -201,17 +208,7 @@ p{
 
 europe-container {
     display: grid;
->>>>>>> europe
-=======
     margin: 0px;
 }
 
-.logo {
-    max-width: 10%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 10px;
->>>>>>> origin/master
-}
+
