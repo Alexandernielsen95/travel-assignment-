@@ -21,6 +21,10 @@ img {
     width: auto 100%
 }
 
+main {
+    margin-bottom: 200px;
+}
+
 .navbar a {
     float: left;
     font-size: 16px;
@@ -46,9 +50,7 @@ img {
     margin: 0;
 }
 
-main {
-    margin-bottom: 200px;
-}
+
 
 .navbar a:hover,
 .subnav:hover .subnavbtn {
