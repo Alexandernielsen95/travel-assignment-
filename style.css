@@ -50,8 +50,6 @@ main {
     margin: 0;
 }
 
-
-
 .navbar a:hover,
 .subnav:hover .subnavbtn {
     background-color: none;
