@@ -79,7 +79,6 @@ main {
     display: block;
 }
 
-
 .image3 a {
     display: grid;
 }
@@ -97,6 +96,7 @@ main {
     grid-gap: 2%;
     margin-top: 30%;
     display: grid;
+
 }
 
 #sky1 {
@@ -143,14 +143,13 @@ main {
     padding: 10px 20px;
     grid-gap: 2%;
     margin-top: 12%;
+
+
 }
-
-
 p {
     justify-self: center;
     align-self: center;
 }
-
 footer {
     position: static;
     left: 0;
@@ -164,7 +163,7 @@ footer {
 
 .icons {
     padding: 20px;
-    margin: 20px;
+    margin: 0px;
 }
 
 .logo {
@@ -175,40 +174,4 @@ footer {
     width: 50%;
     padding-top: 10px;
 }
-
-
-h1 {
-    font-size: 50px;
-    color: white;
-    margin-left: 50px;
-}
-
-h2 {
-    font-size: 20px;
-    color: white;
-    margin-left: 50px;
-}
-
-ul {
-    text-decoration: none;
-}
-
-img {
-    width: 500px;
-    height: auto;
-    margin-left: 50px;
-}
-
-p{
-    color: white;
-    margin-left: 50px;
-    margin-right: 700px;
-    margin-top: 30px;
-}
-
-europe-container {
-    display: grid;
-    margin: 0px;
-}
-
 
