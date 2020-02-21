@@ -247,14 +247,14 @@ ul {
 }
 
 
-<<<<<<< HEAD
 euro-img {
     width: 500px;
     height: 50%;
-=======
+}
+
 img.euro-img {
     width: 40%;
->>>>>>> origin/master
+
     margin-left: 50px;
 }
 
@@ -262,18 +262,11 @@ img.euro-img {
 .euro-p{
     color: white;
     margin-left: 50px;
-<<<<<<< HEAD
-    margin-right: 700px;
-=======
->>>>>>> origin/master
     margin-top: 30px;
 }
 
 .europe-container {
-<<<<<<< HEAD
     display: grid;
-
-=======
     display: flex;
     flex-flow: row;
     order: -1;
@@ -288,7 +281,7 @@ img.euro-img {
     margin-bottom: 5%;
     margin-right: 5%;
 }
->>>>>>> origin/master
+
 
 
 .europe-container3 {
@@ -305,7 +298,4 @@ img.euro-img {
 
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
