@@ -192,19 +192,25 @@ ul {
     text-decoration: none;
 }
 
-img {
-    width: 500px;
+
+.euro-img {
+    width: 20%;
     height: auto;
     margin-left: 50px;
 }
 
-p{
+
+.euro{
     color: white;
     margin-left: 50px;
-    margin-right: 700px;
+    margin-right: 50px;
     margin-top: 30px;
 }
 
-europe-container {
+.europe-container {
     display: grid;
+    grid-template-columns: 1/-1;
+
+
 }
+
