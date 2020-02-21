@@ -21,6 +21,10 @@ img {
     width: auto 100%
 }
 
+main {
+    margin-bottom: 200px;
+}
+
 .navbar a {
     float: left;
     font-size: 16px;
@@ -76,19 +80,94 @@ img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.image3 a {
+    display: grid;
+}
 
+.image3 {
+    position: relative;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.image3 {
+    text-align: center;
+    padding: 10px 20px;
+    grid-gap: 2%;
+    margin-top: 30%;
+    display: grid;
+
+}
+
+#sky1 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#sky2 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#sky3 {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.imgs {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image3 a > * {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    justify-self: center;
+    align-self: center;
+}
+
+.img-des {
+    position: relative;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-des {
+    text-align: center;
+    padding: 10px 20px;
+    grid-gap: 2%;
+    margin-top: 12%;
+>>>>>>> origin/master
+
+
+}
+p {
+    justify-self: center;
+    align-self: center;
+}
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: white;
-  text-align: left;
+    position: static;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: left;
+
 }
 
 .icons {
     padding: 20px;
+<<<<<<< HEAD
     margin: 20px;
 =======
 h1 {
@@ -123,4 +202,16 @@ p{
 europe-container {
     display: grid;
 >>>>>>> europe
+=======
+    margin: 0px;
+}
+
+.logo {
+    max-width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 10px;
+>>>>>>> origin/master
 }
