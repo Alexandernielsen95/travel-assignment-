@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
 
 .navbar {
   overflow: hidden;
@@ -256,6 +257,14 @@ h1 {
     color: white;
     margin-left: 50px;
     text-shadow: 1px 1px black;
+}
+
+h {
+    font-size: 80px;
+    font-family: 'Signika Negative';
+    color: white;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 h2 {
