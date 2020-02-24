@@ -215,14 +215,14 @@ footer {
     left: 0;
     bottom: 0%;
     width: 100%;
-    background-color: black;
+    background-color: #1E514A;
     color: white;
     text-align: left;
 
 }
 
 .icons {
-    padding: 20px;
+    padding: 40px;
     margin: 0px;
 }
 
