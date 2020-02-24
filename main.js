@@ -31,8 +31,8 @@ function showData(singleRowData) {
     h3.textContent = singleRowData.gsx$accommondation.$t;
 
     const p = clone.querySelector('p');
-    p.textContent = singleRowData.gsx$shortDescripstion.$t;
-    console.log(singleRowData.gsx$shortDescripstion.$t)
+    p.textContent = singleRowData.gsx$shortdescripstion.$t;
+    console.log(singleRowData.gsx$shortdescripstion.$t)
 
     document.querySelector('main').appendChild(clone);
 }
