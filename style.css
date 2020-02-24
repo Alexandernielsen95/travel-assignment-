@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap');
 
 .navbar {
   overflow: hidden;
@@ -83,6 +83,7 @@ main {
     float: left;
     font-size: 16px;
     color: white;
+    font-family: 'Josefin Sans';
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -204,13 +205,17 @@ main {
 p {
     justify-self: center;
     align-self: center;
+    font-family: 'Josefin Slab';
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
 }
 footer {
     position: static;
     left: 0;
     bottom: 0%;
     width: 100%;
-    background-color: white;
+    background-color: black;
     color: white;
     text-align: left;
 
@@ -232,14 +237,18 @@ footer {
 
 h1 {
     font-size: 50px;
+    font-family: 'Josefin Slab';
     color: white;
     margin-left: 50px;
+    text-shadow: 1px 1px black;
 }
 
 h2 {
     font-size: 20px;
     color: white;
+    font-family: 'Josefin Slab';
     margin-left: 50px;
+    text-shadow: 1px 1px black;
 }
 
 ul {
