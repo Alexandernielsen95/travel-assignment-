@@ -25,12 +25,9 @@ function showData(singleRowData) {
     const h2 = clone.querySelector('h2');
     h2.textContent = singleRowData.gsx$europe.$t;
 
-    // const Image = base + "" + .image + "";
-    //    clone.querySelector("img").setAttribute("src", "img/" + singleRowData.gsx$countryimg.$t + ".jpg")
+
     clone.querySelector(".country").style.backgroundImage =
         `url("img/${singleRowData.gsx$countryimg.$t}.jpg")`;
-    //"url('img/denmark.jpg')";
-
 
 
     const p = clone.querySelector('.euro-p');
