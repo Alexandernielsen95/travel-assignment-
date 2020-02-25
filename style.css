@@ -204,7 +204,7 @@ main {
     margin-top: 12%;
     margin-bottom: 75px;
     padding: 50px;
-<<<<<<< HEAD
+
 
 
 }
@@ -215,8 +215,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-=======
->>>>>>> aboutUs
+
 
 .img-subcountry {
     text-align: center;
@@ -232,7 +231,7 @@ main {
     margin-left: 2%;
 }
 
-<<<<<<< HEAD
+
 .Denmark_h1 {
     margin-top: 45%;
     margin-left: 2%;
@@ -244,8 +243,7 @@ main {
 }
 
 
-=======
->>>>>>> aboutUs
+
 p {
     justify-self: center;
     align-self: center;
@@ -302,7 +300,6 @@ h1 {
     text-shadow: 1px 1px black;
 }
 
-<<<<<<< HEAD
 h {
     font-size: 80px;
     font-family: 'Signika Negative';
@@ -310,19 +307,7 @@ h {
     padding: 50px;
     text-align: center;
 }
-=======
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> layout_europe
 
 
 h2 {
@@ -408,7 +393,7 @@ h1 {
     grid-column: 1/-1;
 
 
-<<<<<<< HEAD
+
 }
 
 .country {
@@ -440,7 +425,8 @@ h1 {
 
 .euro-p {
     text-align: center;
-=======
+}
+
 .ttipstext {
     display: flex;
     flex-flow: row;
@@ -471,5 +457,5 @@ h1 {
 
 .img-dung {
     width: 100%;
->>>>>>> aboutUs
+
 }
