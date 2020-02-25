@@ -1,55 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap');
 
 .navbar {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .dropdown {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 body {
@@ -71,9 +71,11 @@ body {
 }
 
 
+/*
 img {
     width: auto 100%
 }
+*/
 
 main {
     margin-bottom: 200px;
@@ -202,6 +204,39 @@ main {
 
 
 }
+
+.img-subcountry {
+    position: relative;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-subcountry {
+    text-align: center;
+    padding: 10px 20px;
+    grid-gap: 2%;
+    margin-top: 0 auto;
+    margin-bottom: 75px;
+    text-decoration: none;
+}
+
+.Norway_h1 {
+    margin-top: 45%;
+    margin-left: 2%;
+}
+
+.Denmark_h1 {
+    margin-top: 45%;
+    margin-left: 2%;
+}
+
+.Poland_h1 {
+    margin-top: 45%;
+    margin-left: 2%;
+}
+
+
 p {
     justify-self: center;
     align-self: center;
@@ -210,6 +245,7 @@ p {
     font-size: 20px;
     text-shadow: 2px 2px black;
 }
+
 footer {
     position: static;
     left: 0;
@@ -247,7 +283,7 @@ h2 {
     font-size: 20px;
     color: white;
     font-family: 'Josefin Slab';
-    margin-left: 50px;
+    /*    margin-left: 50px;*/
     text-shadow: 1px 1px black;
 }
 
@@ -256,6 +292,7 @@ ul {
 }
 
 
+/*
 euro-img {
     width: 500px;
     height: 50%;
@@ -301,10 +338,57 @@ img.euro-img {
     margin-right: 5%;
 }
 
+.main-euro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+*/
+
+h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.main-euro {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    margin: 0 1rem;
+}
+
+.main-euro > h1 {
+    grid-column: 1/-1;
 
 
+}
 
+.country {
+    display: grid;
+    background-color: #D3FEDD;
+    margin-top: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
 
+.country {
+    position: relative;
+    background-size: cover;
+}
 
+.euro-img {
+    max-width: 100%;
+    height: auto;
 
+}
 
+.main-euro {
+    margin-bottom: 75px;
+}
+
+.head {
+    text-align: center;
+}
+
+.euro-p {
+    text-align: center;
+}
