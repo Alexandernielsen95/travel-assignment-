@@ -155,7 +155,6 @@ main {
     padding: 50px;
     grid-gap: 2%;
     margin-top: 120px;
-    margin-bottom: 0px;
     display: grid;
 
 }
@@ -202,9 +201,9 @@ main {
 .img-des {
     text-align: center;
     grid-gap: 2%;
-    margin-top: 20px;
+    margin-top: 12%;
     margin-bottom: 75px;
-     padding: 50px;
+    padding: 50px;
 
 
 }
@@ -276,7 +275,7 @@ footer {
 
 .icon {
     max-width: 3%;
-    padding-left:  10px;
+    padding-left: 10px;
 }
 
 
@@ -305,16 +304,14 @@ h {
     text-align: center;
 }
 
+
 h2 {
     font-size: 30px;
     color: white;
-<<<<<<< HEAD
     font-family: 'Josefin Slab';
     /*    margin-left: 50px;*/
-=======
     font-family: 'Josefin Sans';
     margin-left: 50px;
->>>>>>> travel-assignment/master
     text-shadow: 1px 1px black;
 }
 
