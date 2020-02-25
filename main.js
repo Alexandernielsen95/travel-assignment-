@@ -25,6 +25,10 @@ function showData(singleRowData) {
     const h2 = clone.querySelector('h2');
     h2.textContent = singleRowData.gsx$europe.$t;
 
+//    const a = clone.querySelector('a');
+ //    a.textContent = singleRowData.gsx$link.$t;
+ //    console.log(singleRowData.gsx$link.$t)
+
 
     clone.querySelector(".country").style.backgroundImage =
         `url("img/${singleRowData.gsx$countryimg.$t}.jpg")`;
