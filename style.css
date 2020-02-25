@@ -2,55 +2,55 @@
 @import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
 
 .navbar {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .dropdown {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+    background-color: #ddd;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
 body {
@@ -201,10 +201,11 @@ main {
     grid-gap: 2%;
     margin-top: 12%;
     margin-bottom: 75px;
-     padding: 50px;
+    padding: 50px;
 
 
 }
+
 p {
     justify-self: center;
     align-self: center;
@@ -240,7 +241,7 @@ footer {
 
 .icon {
     max-width: 3%;
-    padding-left:  10px;
+    padding-left: 10px;
 }
 
 
@@ -294,7 +295,7 @@ img.euro-img {
 }
 
 
-.euro-p{
+.euro-p {
     color: white;
     margin-left: 50px;
     margin-top: 30px;
@@ -337,11 +338,26 @@ img.euro-img {
     margin-right: 10%;
 }
 
-.about{
+.about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 50px;
 }
 
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-left: 50px;
+}
 
+.img-dominika {
+    width: 100%;
+}
 
+.img-alexander {
+    width: 100%;
+}
+
+.img-dung {
+    width: 100%;
+}
