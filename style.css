@@ -204,6 +204,7 @@ main {
     margin-top: 12%;
     margin-bottom: 75px;
     padding: 50px;
+<<<<<<< HEAD
 
 
 }
@@ -214,6 +215,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+=======
+>>>>>>> aboutUs
 
 .img-subcountry {
     text-align: center;
@@ -229,6 +232,7 @@ main {
     margin-left: 2%;
 }
 
+<<<<<<< HEAD
 .Denmark_h1 {
     margin-top: 45%;
     margin-left: 2%;
@@ -240,6 +244,8 @@ main {
 }
 
 
+=======
+>>>>>>> aboutUs
 p {
     justify-self: center;
     align-self: center;
@@ -333,7 +339,7 @@ img.euro-img {
 }
 
 
-.euro-p{
+.euro-p {
     color: white;
     margin-left: 50px;
     margin-top: 30px;
@@ -388,6 +394,7 @@ h1 {
     grid-column: 1/-1;
 
 
+<<<<<<< HEAD
 }
 
 .country {
@@ -419,4 +426,36 @@ h1 {
 
 .euro-p {
     text-align: center;
+=======
+.ttipstext {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 5%;
+    margin-left: 50px;
+    margin-right: 10%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-left: 50px;
+}
+
+.img-dominika {
+    width: 100%;
+}
+
+.img-alexander {
+    width: 100%;
+}
+
+.img-dung {
+    width: 100%;
+>>>>>>> aboutUs
 }
