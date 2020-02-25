@@ -153,6 +153,7 @@ main {
     padding: 50px;
     grid-gap: 2%;
     margin-top: 120px;
+    margin-bottom: 0px;
     display: grid;
 
 }
@@ -199,7 +200,7 @@ main {
 .img-des {
     text-align: center;
     grid-gap: 2%;
-    margin-top: 12%;
+    margin-top: 20px;
     margin-bottom: 75px;
      padding: 50px;
 
