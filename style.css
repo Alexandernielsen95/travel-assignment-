@@ -535,9 +535,13 @@ h1 {
 
 .about {
     display: grid;
-    grid-template-columns: 1fr .;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5%;
     margin-left: 50px;
+    margin-right: 10%;
 }
+
+
 
 .about-container {
     display: grid;
