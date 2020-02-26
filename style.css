@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Signika+Negative&display=swap');
 
+
 .navbar {
     overflow: hidden;
 }
@@ -28,6 +29,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    margin-bottom: 0
 }
 
 
@@ -64,12 +66,12 @@ body {
 
 }
 
-.pictureflights
-{    background-color: #000000;
-   background-image: url(img/flight.jpg);
-   background-position: 100% 100%;
-   background-repeat: no-repeat;
-   max-width: 100%;
+.pictureflights {
+    background-color: #000000;
+    background-image: url(img/flight.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
     max-height: 100%;
 }
 
@@ -99,7 +101,7 @@ main {
     font-family: 'Josefin Sans';
     text-align: center;
     padding: 14px 16px;
-    padding-bottom: 160px;
+    /*    padding-bottom: 160px;*/
     text-decoration: none;
 }
 
@@ -156,7 +158,8 @@ main {
     position: relative;
     width: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    ;
 
 }
 
@@ -206,12 +209,14 @@ main {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .img-des {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
+<<<<<<< HEAD
 
     margin-bottom: 55px;
     padding: 30px;
@@ -221,6 +226,12 @@ main {
     padding: 50px;
 
 
+=======
+    margin-bottom: 55px;
+    padding: 30px;
+    margin-bottom: 75px;
+    padding: 50px;
+>>>>>>> origin/master
 }
 
 .img-subcountry {
@@ -247,7 +258,7 @@ main {
 
 
 .Denmark_h1 {
-    margin-top: 45%;
+    margin-top: 10%;
     margin-left: 2%;
 }
 
@@ -317,11 +328,18 @@ h {
     font-size: 80px;
     font-family: 'Signika Negative';
     color: white;
-    padding: 50px;
     text-align: center;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 15%
 }
 
+<<<<<<< HEAD
 h5 {
+=======
+<<<<<<< HEAD h5 {
+>>>>>>> origin/master
     font-size: 80px;
     font-family: 'Signika Negative';
     color: #18514A;
@@ -342,7 +360,11 @@ h3 {
 
 
 
+<<<<<<< HEAD
 h2 {
+=======
+======= > > > > > > > origin/master h2 {
+>>>>>>> origin/master
     font-size: 30px;
     color: white;
     font-family: 'Josefin Slab';
@@ -425,9 +447,14 @@ h1 {
     grid-column: 1/-1;
 }
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+}
+>>>>>>> origin/master
 
-.country {
+=======<<<<<<< HEAD======= > > > > > > > origin/master > > > > > > > travel-assignment/master .country {
     display: grid;
     background-color: #D3FEDD;
     margin-top: 10px;
@@ -457,9 +484,19 @@ h1 {
 }
 
 .euro-p {
+<<<<<<< HEAD
     text-align: center;
 }
 .ttipstext {
+=======
+    <<<<<<< HEAD text-align: center;
+}
+
+=======text-align: center;
+}
+
+> > > > > > > origin/master .ttipstext {
+>>>>>>> origin/master
     display: flex;
     flex-flow: row;
     margin-bottom: 5%;
