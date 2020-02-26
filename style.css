@@ -54,13 +54,22 @@
 }
 
 body {
+    background-image: url('img/anton-darius-ebHCU8n7G38-unsplash.jpg');
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-image: url('img/anton-darius-ebHCU8n7G38-unsplash.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
+}
+
+.pictureflights
+{    background-color: #000000;
+   background-image: url(img/flight.jpg);
+   background-position: 100% 100%;
+   background-repeat: no-repeat;
+   max-width: 100%;
+    max-height: 100%;
 }
 
 .navbar {
@@ -202,8 +211,8 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
-    margin-bottom: 75px;
-    padding: 50px;
+    margin-bottom: 55px;
+    padding: 30px;
 <<<<<<< HEAD
 
 
@@ -244,8 +253,6 @@ main {
 }
 
 
-=======
->>>>>>> aboutUs
 p {
     justify-self: center;
     align-self: center;
@@ -302,7 +309,7 @@ h1 {
     text-shadow: 1px 1px black;
 }
 
-<<<<<<< HEAD
+
 h {
     font-size: 80px;
     font-family: 'Signika Negative';
@@ -310,8 +317,22 @@ h {
     padding: 50px;
     text-align: center;
 }
-=======
+h5 {
+    font-size: 80px;
+    font-family: 'Signika Negative';
+    color: #18514A;
+    padding: 20px;
+    text-align: left;
+}
 
+h3 {
+    font-size: 20px;
+    font-family: 'Signika Negative';
+    color: #18514A;
+    text-decoration: none;
+    padding: 30px;
+    text-align: left;
+}
 
 
 
@@ -407,8 +428,6 @@ h1 {
 .main-euro > h1 {
     grid-column: 1/-1;
 
-
-<<<<<<< HEAD
 }
 
 .country {
@@ -439,8 +458,8 @@ h1 {
 }
 
 .euro-p {
-    text-align: center;
-=======
+    text-align: center;}
+
 .ttipstext {
     display: flex;
     flex-flow: row;
@@ -471,5 +490,5 @@ h1 {
 
 .img-dung {
     width: 100%;
->>>>>>> aboutUs
+
 }
