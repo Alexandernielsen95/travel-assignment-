@@ -70,8 +70,22 @@ body {
     background-image: url("img/anton-darius-ebHCU8n7G38-unsplash.jpg");
     background-size: cover;
 
+
+
+
 }
 
+.background-europe {
+    background-image: url("img/fezbot2000-80b0ydkwj9A-unsplash.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+
+
+
+}
 
 .pictureflights {
     background-color: #000000;
@@ -90,6 +104,7 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -231,8 +246,6 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
-<<<<<<< HEAD
-=======
     margin-bottom: 55px;
     padding: 30px;
 
@@ -246,15 +259,11 @@ main {
     margin-bottom: 75px;
     padding: 50px;
 
->>>>>>> travel-assignment/master
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
-<<<<<<< HEAD
-=======
 
->>>>>>> travel-assignment/master
 }
 
 .img-subcountry {
@@ -362,8 +371,9 @@ h5 {
     font-size: 80px;
     font-family: 'Signika Negative';
     color: white;
-    padding: 20px;
+    /*    padding: 20px;*/
     text-align: left;
+    margin: 5%;
 }
 
 h3 {
@@ -376,12 +386,6 @@ h3 {
 }
 
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> travel-assignment/master
 h2 {
     font-size: 30px;
     color: white;
@@ -459,18 +463,13 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
     margin: 0 1rem;
+
 }
 
 .main-euro > h1 {
     grid-column: 1/-1;
 }
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> travel-assignment/master
 .country {
     display: grid;
     background-color: #D3FEDD;
@@ -501,26 +500,20 @@ h1 {
 }
 
 .euro-p {
-<<<<<<< HEAD
-=======
-
->>>>>>> travel-assignment/master
     text-align: center;
 }
 
 
 
-<<<<<<< HEAD
 .ttipstext {
     display: flex;
     flex-flow: row;
-=======
+}
 
 .ttipstext {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
->>>>>>> travel-assignment/master
     margin-bottom: 5%;
     margin-left: 50px;
     margin-right: 10%;
