@@ -361,12 +361,11 @@ h3 {
 
 h2 {
     font-size: 30px;
-    color: white;
+    color: #18514A;
     font-family: 'Josefin Slab';
     /*    margin-left: 50px;*/
     font-family: 'Josefin Sans';
     margin-left: 50px;
-    text-shadow: 1px 1px black;
 }
 
 ul {
@@ -477,11 +476,6 @@ h1 {
 
 
 .ttipstext {
-    display: flex;
-    flex-flow: row;
-    }
-
-.ttipstext {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 5%;
@@ -491,7 +485,7 @@ h1 {
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .;
     margin-left: 50px;
 }
 
