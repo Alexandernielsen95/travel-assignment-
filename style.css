@@ -391,6 +391,8 @@ h1 {
     grid-column: 1/-1;
 }
 
+
+
 .country {
     display: grid;
     background-color: #D3FEDD;
