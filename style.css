@@ -452,11 +452,13 @@ h1 {
 .country {
     position: relative;
     background-size: cover;
+
 }
 
 .euro-img {
     max-width: 100%;
     height: auto;
+
 
 }
 
