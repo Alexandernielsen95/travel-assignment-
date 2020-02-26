@@ -216,29 +216,10 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    margin-bottom: 55px;
-    padding: 30px;
-
-
-    margin-bottom: 75px;
-    padding: 50px;
-
-
-=======
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
->>>>>>> origin/master
-=======
-    margin-bottom: 55px;
-    padding: 30px;
-    margin-bottom: 75px;
-    padding: 50px;
->>>>>>> origin/master
 }
 
 .img-subcountry {
@@ -342,15 +323,9 @@ h {
     margin-top: 15%
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 h5 {
-=======
-<<<<<<< HEAD h5 {
->>>>>>> origin/master
-=======
-<<<<<<< HEAD h5 {
->>>>>>> origin/master
+
     font-size: 80px;
     font-family: 'Signika Negative';
     color: #18514A;
@@ -368,18 +343,7 @@ h3 {
 }
 
 
-
-
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 h2 {
-=======
-======= > > > > > > > origin/master h2 {
->>>>>>> origin/master
-=======
-======= > > > > > > > origin/master h2 {
->>>>>>> origin/master
     font-size: 30px;
     color: white;
     font-family: 'Josefin Slab';
@@ -462,18 +426,7 @@ h1 {
     grid-column: 1/-1;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-}
->>>>>>> origin/master
-=======
-}
->>>>>>> origin/master
-
-=======<<<<<<< HEAD======= > > > > > > > origin/master > > > > > > > travel-assignment/master .country {
+.country {
     display: grid;
     background-color: #D3FEDD;
     margin-top: 10px;
@@ -490,8 +443,6 @@ h1 {
 .euro-img {
     max-width: 100%;
     height: auto;
-
-
 }
 
 .main-euro {
@@ -503,31 +454,14 @@ h1 {
 }
 
 .euro-p {
-<<<<<<< HEAD
-<<<<<<< HEAD
     text-align: center;
 }
+
+
 .ttipstext {
-=======
-    <<<<<<< HEAD text-align: center;
-}
-
-=======text-align: center;
-}
-
-> > > > > > > origin/master .ttipstext {
->>>>>>> origin/master
-=======
-    <<<<<<< HEAD text-align: center;
-}
-
-=======text-align: center;
-}
-
-> > > > > > > origin/master .ttipstext {
->>>>>>> origin/master
     display: flex;
     flex-flow: row;
+    text-align: center;
     margin-bottom: 5%;
     margin-left: 50px;
     margin-right: 10%;
