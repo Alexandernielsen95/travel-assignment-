@@ -94,6 +94,15 @@ body {
     max-height: 100%;
 }
 
+.background-about {
+    background-image: url("img/hide-obara-2p1HOcpi14U-unsplash.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .pictureflights {
     background-color: #000000;
     background-image: url(img/flight.jpg);
@@ -254,8 +263,7 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
-<<<<<<< HEAD
-=======
+
     margin-bottom: 55px;
     padding: 30px;
 
@@ -269,16 +277,12 @@ main {
     margin-bottom: 75px;
     padding: 50px;
 
->>>>>>> origin/master
+
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
-<<<<<<< HEAD
-=======
 
-
->>>>>>> origin/master
 }
 
 .img-subcountry {
@@ -486,13 +490,7 @@ h1 {
     grid-column: 1/-1;
 }
 
-<<<<<<< HEAD
 
-
-
-
-=======
->>>>>>> origin/master
 .country {
     display: grid;
     background-color: #D3FEDD;
@@ -521,28 +519,12 @@ h1 {
 }
 
 .euro-p {
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
     text-align: center;
 }
 
 
-<<<<<<< HEAD
 
 
-
-
-
-
-=======
-.ttipstext {
-    display: flex;
-    flex-flow: row;
-}
-
->>>>>>> origin/master
 .ttipstext {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -561,6 +543,10 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     margin-left: 50px;
+}
+
+.den-text {
+    margin-left: 20px;
 }
 
 .img-dominika {
