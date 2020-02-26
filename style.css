@@ -83,8 +83,15 @@ body {
     max-width: 100%;
     max-height: 100%;
 
+}
 
-
+.background-denmark {
+    background-image: url("img/denmark-background.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .pictureflights {
@@ -247,10 +254,31 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
+<<<<<<< HEAD
+=======
+    margin-bottom: 55px;
+    padding: 30px;
+
+
+    margin-bottom: 75px;
+    padding: 50px;
+
+
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
+
+>>>>>>> origin/master
+    margin-bottom: 55px;
+    padding: 30px;
+    margin-bottom: 75px;
+    padding: 50px;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> origin/master
 }
 
 .img-subcountry {
@@ -277,6 +305,7 @@ main {
 
 
 .Denmark_h1 {
+
     margin-top: 10%;
     margin-left: 2%;
 }
@@ -457,10 +486,13 @@ h1 {
     grid-column: 1/-1;
 }
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> origin/master
 .country {
     display: grid;
     background-color: #D3FEDD;
@@ -489,17 +521,28 @@ h1 {
 }
 
 .euro-p {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     text-align: center;
 }
 
 
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+.ttipstext {
+    display: flex;
+    flex-flow: row;
+}
+
+>>>>>>> origin/master
 .ttipstext {
     display: grid;
     grid-template-columns: 1fr 1fr;
