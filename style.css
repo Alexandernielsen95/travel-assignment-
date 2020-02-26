@@ -247,30 +247,10 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
-<<<<<<< HEAD
-    margin-bottom: 55px;
-    padding: 30px;
-
-
-    margin-bottom: 75px;
-    padding: 50px;
-
-
-=======
->>>>>>> travel-assignment/master
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
-
-<<<<<<< HEAD
-    margin-bottom: 55px;
-    padding: 30px;
-    margin-bottom: 75px;
-    padding: 50px;
-
-=======
->>>>>>> travel-assignment/master
 }
 
 .img-subcountry {
@@ -477,10 +457,10 @@ h1 {
     grid-column: 1/-1;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> travel-assignment/master
+
+
+
 .country {
     display: grid;
     background-color: #D3FEDD;
@@ -509,23 +489,17 @@ h1 {
 }
 
 .euro-p {
-<<<<<<< HEAD
-=======
 
->>>>>>> travel-assignment/master
     text-align: center;
 }
 
 
-<<<<<<< HEAD
 
-.ttipstext {
-    display: flex;
-    flex-flow: row;
-}
 
-=======
->>>>>>> travel-assignment/master
+
+
+
+
 .ttipstext {
     display: grid;
     grid-template-columns: 1fr 1fr;
