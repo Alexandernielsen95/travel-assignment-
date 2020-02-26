@@ -212,15 +212,14 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
-<<<<<<< HEAD
+
     margin-bottom: 55px;
     padding: 30px;
-<<<<<<< HEAD
 
-=======
+
     margin-bottom: 75px;
     padding: 50px;
->>>>>>> origin/master
+
 
 }
 
@@ -314,10 +313,6 @@ h1 {
     text-shadow: 1px 1px black;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 h {
     font-size: 80px;
     font-family: 'Signika Negative';
@@ -325,7 +320,7 @@ h {
     padding: 50px;
     text-align: center;
 }
-<<<<<<< HEAD
+
 h5 {
     font-size: 80px;
     font-family: 'Signika Negative';
@@ -344,11 +339,6 @@ h3 {
 }
 
 
-
-
-
-=======
->>>>>>> origin/master
 
 
 
@@ -435,11 +425,7 @@ h1 {
     grid-column: 1/-1;
 }
 
-<<<<<<< HEAD
-}
-=======
 
->>>>>>> origin/master
 
 .country {
     display: grid;
@@ -471,13 +457,8 @@ h1 {
 }
 
 .euro-p {
-<<<<<<< HEAD
-    text-align: center;}
-=======
     text-align: center;
 }
->>>>>>> origin/master
-
 .ttipstext {
     display: flex;
     flex-flow: row;
