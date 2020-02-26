@@ -57,7 +57,7 @@
 }
 
 body {
-    background-image: url('img/anton-darius-ebHCU8n7G38-unsplash.jpg');
+    /*    background-image: url('img/anton-darius-ebHCU8n7G38-unsplash.jpg');*/
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-repeat: no-repeat;
@@ -65,6 +65,13 @@ body {
     background-size: cover;
 
 }
+
+.background-img {
+    background-image: url("img/anton-darius-ebHCU8n7G38-unsplash.jpg");
+    background-size: cover;
+
+}
+
 
 .pictureflights {
     background-color: #000000;
@@ -75,6 +82,14 @@ body {
     max-height: 100%;
 }
 
+.picturetips {
+    background-color: #000000;
+    background-image: url(img/backpacktips.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
 .navbar {
     display: flex;
     justify-content: center;
@@ -216,10 +231,36 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    margin-bottom: 55px;
+    padding: 30px;
+
+
+    margin-bottom: 75px;
+    padding: 50px;
+
+
+>>>>>>> origin/master
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> travel-assignment/master
+    margin-bottom: 55px;
+    padding: 30px;
+    margin-bottom: 75px;
+    padding: 50px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> travel-assignment/master
+>>>>>>> origin/master
 }
 
 .img-subcountry {
@@ -260,7 +301,7 @@ p {
     justify-self: center;
     align-self: center;
     font-family: 'Josefin Slab';
-    color: white;
+    color: #1E514A;
     font-size: 20px;
 }
 
@@ -323,12 +364,16 @@ h {
     margin-top: 15%
 }
 
+<<<<<<< HEAD
 
 h5 {
 
+=======
+h5 {
+>>>>>>> origin/master
     font-size: 80px;
     font-family: 'Signika Negative';
-    color: #18514A;
+    color: white;
     padding: 20px;
     text-align: left;
 }
@@ -343,6 +388,15 @@ h3 {
 }
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> travel-assignment/master
+>>>>>>> origin/master
 h2 {
     font-size: 30px;
     color: white;
@@ -426,6 +480,15 @@ h1 {
     grid-column: 1/-1;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> travel-assignment/master
+>>>>>>> origin/master
 .country {
     display: grid;
     background-color: #D3FEDD;
@@ -454,6 +517,7 @@ h1 {
 }
 
 .euro-p {
+<<<<<<< HEAD
     text-align: center;
 }
 
@@ -462,6 +526,28 @@ h1 {
     display: flex;
     flex-flow: row;
     text-align: center;
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> travel-assignment/master
+    text-align: center;
+}
+
+
+
+<<<<<<< HEAD
+.ttipstext {
+    display: flex;
+    flex-flow: row;
+=======
+
+.ttipstext {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+>>>>>>> travel-assignment/master
+>>>>>>> origin/master
     margin-bottom: 5%;
     margin-left: 50px;
     margin-right: 10%;
