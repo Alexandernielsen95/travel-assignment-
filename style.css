@@ -82,6 +82,14 @@ body {
     max-height: 100%;
 }
 
+.picturetips {
+    background-color: #000000;
+    background-image: url(img/backpacktips.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
 .navbar {
     display: flex;
     justify-content: center;
@@ -223,10 +231,30 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
+<<<<<<< HEAD
+=======
+    margin-bottom: 55px;
+    padding: 30px;
+
+
+    margin-bottom: 75px;
+    padding: 50px;
+
+
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
+
+>>>>>>> travel-assignment/master
+    margin-bottom: 55px;
+    padding: 30px;
+    margin-bottom: 75px;
+    padding: 50px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> travel-assignment/master
 }
 
 .img-subcountry {
@@ -333,7 +361,7 @@ h {
 h5 {
     font-size: 80px;
     font-family: 'Signika Negative';
-    color: #18514A;
+    color: white;
     padding: 20px;
     text-align: left;
 }
@@ -348,9 +376,12 @@ h3 {
 }
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> travel-assignment/master
 h2 {
     font-size: 30px;
     color: white;
@@ -434,9 +465,12 @@ h1 {
     grid-column: 1/-1;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> travel-assignment/master
 .country {
     display: grid;
     background-color: #D3FEDD;
@@ -467,14 +501,26 @@ h1 {
 }
 
 .euro-p {
+<<<<<<< HEAD
+=======
+
+>>>>>>> travel-assignment/master
     text-align: center;
 }
 
 
 
+<<<<<<< HEAD
 .ttipstext {
     display: flex;
     flex-flow: row;
+=======
+
+.ttipstext {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+>>>>>>> travel-assignment/master
     margin-bottom: 5%;
     margin-left: 50px;
     margin-right: 10%;
