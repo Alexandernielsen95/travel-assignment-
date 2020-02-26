@@ -246,6 +246,7 @@ main {
     text-align: center;
     grid-gap: 2%;
     margin-top: 12%;
+<<<<<<< HEAD
     margin-bottom: 55px;
     padding: 30px;
 
@@ -254,16 +255,21 @@ main {
     padding: 50px;
 
 
+=======
+>>>>>>> travel-assignment/master
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
 
+<<<<<<< HEAD
     margin-bottom: 55px;
     padding: 30px;
     margin-bottom: 75px;
     padding: 50px;
 
+=======
+>>>>>>> travel-assignment/master
 }
 
 .img-subcountry {
@@ -367,7 +373,9 @@ h {
     margin-top: 15%
 }
 
+
 h5 {
+
     font-size: 80px;
     font-family: 'Signika Negative';
     color: white;
@@ -388,12 +396,11 @@ h3 {
 
 h2 {
     font-size: 30px;
-    color: white;
+    color: #18514A;
     font-family: 'Josefin Slab';
     /*    margin-left: 50px;*/
     font-family: 'Josefin Sans';
     margin-left: 50px;
-    text-shadow: 1px 1px black;
 }
 
 ul {
@@ -470,6 +477,10 @@ h1 {
     grid-column: 1/-1;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> travel-assignment/master
 .country {
     display: grid;
     background-color: #D3FEDD;
@@ -487,8 +498,6 @@ h1 {
 .euro-img {
     max-width: 100%;
     height: auto;
-
-
 }
 
 .main-euro {
@@ -500,18 +509,24 @@ h1 {
 }
 
 .euro-p {
+<<<<<<< HEAD
+=======
+
+>>>>>>> travel-assignment/master
     text-align: center;
 }
 
 
+<<<<<<< HEAD
 
 .ttipstext {
     display: flex;
     flex-flow: row;
 }
 
+=======
+>>>>>>> travel-assignment/master
 .ttipstext {
-
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 5%;
@@ -521,7 +536,7 @@ h1 {
 
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .;
     margin-left: 50px;
 }
 
