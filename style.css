@@ -217,6 +217,7 @@ main {
     grid-gap: 2%;
     margin-top: 12%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     margin-bottom: 55px;
     padding: 30px;
@@ -226,6 +227,12 @@ main {
     padding: 50px;
 
 
+=======
+    margin-bottom: 55px;
+    padding: 30px;
+    margin-bottom: 75px;
+    padding: 50px;
+>>>>>>> origin/master
 =======
     margin-bottom: 55px;
     padding: 30px;
@@ -336,7 +343,11 @@ h {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h5 {
+=======
+<<<<<<< HEAD h5 {
+>>>>>>> origin/master
 =======
 <<<<<<< HEAD h5 {
 >>>>>>> origin/master
@@ -361,7 +372,11 @@ h3 {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h2 {
+=======
+======= > > > > > > > origin/master h2 {
+>>>>>>> origin/master
 =======
 ======= > > > > > > > origin/master h2 {
 >>>>>>> origin/master
@@ -448,9 +463,13 @@ h1 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+}
+>>>>>>> origin/master
+=======
 }
 >>>>>>> origin/master
 
@@ -485,9 +504,19 @@ h1 {
 
 .euro-p {
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-align: center;
 }
 .ttipstext {
+=======
+    <<<<<<< HEAD text-align: center;
+}
+
+=======text-align: center;
+}
+
+> > > > > > > origin/master .ttipstext {
+>>>>>>> origin/master
 =======
     <<<<<<< HEAD text-align: center;
 }
