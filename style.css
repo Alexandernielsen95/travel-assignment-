@@ -10,7 +10,7 @@
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+/*    padding: 14px 16px;*/
     text-decoration: none;
 }
 
@@ -28,6 +28,7 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    margin-bottom: 0
 }
 
 
@@ -147,7 +148,8 @@ main {
     position: relative;
     width: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    ;
 
 }
 
@@ -197,6 +199,7 @@ main {
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .img-des {
@@ -232,7 +235,7 @@ main {
 
 
 .Denmark_h1 {
-    margin-top: 45%;
+    margin-top: 10%;
     margin-left: 2%;
 }
 
@@ -302,8 +305,11 @@ h {
     font-size: 80px;
     font-family: 'Signika Negative';
     color: white;
-    padding: 50px;
+    /*    padding: 50px;*/
     text-align: center;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 }
 
 
@@ -390,7 +396,6 @@ h1 {
 .main-euro > h1 {
     grid-column: 1/-1;
 }
-
 
 
 .country {
