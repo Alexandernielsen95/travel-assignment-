@@ -428,6 +428,11 @@ h2 {
     /*    margin-left: 50px;*/
     font-family: 'Josefin Sans';
     margin-left: 50px;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 a hoover {
