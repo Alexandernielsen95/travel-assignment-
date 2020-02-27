@@ -412,11 +412,15 @@ h3 {
 
 h2 {
     font-size: 30px;
-    color: #18514A;
+    color: white;
     font-family: 'Josefin Slab';
     /*    margin-left: 50px;*/
     font-family: 'Josefin Sans';
     margin-left: 50px;
+}
+
+a hoover {
+    opacity: 50%
 }
 
 ul {
@@ -524,6 +528,7 @@ h1 {
 .euro-p {
     text-align: center;
 }
+
 
 
 
