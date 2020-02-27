@@ -400,6 +400,15 @@ h5 {
     margin: 5%;
 }
 
+h4 {
+    font-size: 40px;
+    font-family: 'Signika Negative';
+    color: #18514A;
+    /*    padding: 20px;*/
+    text-align: center;
+    margin: 5%;
+}
+
 h3 {
     font-size: 20px;
     font-family: 'Signika Negative';
@@ -562,9 +571,10 @@ h1 {
     margin-left: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-left: 50px;
     margin-right: 10%;
+    margin-top: 3%
 }
 
 .img-dominika {
