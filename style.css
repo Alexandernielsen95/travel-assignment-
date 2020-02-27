@@ -431,6 +431,16 @@ h2 {
 
 }
 
+.travel {
+    font-size: 30px;
+    color: #18514A;
+    font-family: 'Josefin Slab';
+    /*    margin-left: 50px;*/
+    font-family: 'Josefin Sans';
+    margin-left: 50px;
+
+}
+
 a {
     text-decoration: none;
 }
